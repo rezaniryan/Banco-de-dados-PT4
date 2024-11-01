@@ -1,21 +1,7 @@
-INSERT INTO Animais VALUES (01, 'Bryan', date '2015-10-21', 13.9, 'Marrom');
-INSERT INTO Animais VALUES (02, 'Xandao', date '2016-12-22', 14.3, 'Branco');
-INSERT INTO Animais VALUES (03, 'Tom', date '2013-02-08', 11.2, 'Verde');
-INSERT INTO Animais VALUES (04, 'Gato de botas', date '2015-07-06', 17.1, 'laranja');
-INSERT INTO Animais VALUES (05, 'Tininha', date '2011-08-01', 13.7, 'preto');
-INSERT INTO Animais VALUES (06, 'Cherry', date '2011-02-03', 12.3, 'laranja');
-INSERT INTO Animais VALUES (07, 'Poppay', date '2014-04-06', 13.2, 'branci');
-INSERT INTO Animais VALUES (08, 'Brutos', date '2015-04-09', 13.9, 'branco');
-INSERT INTO Animais VALUES (09, 'Torreto', date '2012-12-10', 13.9, 'preto');
-INSERT INTO Animais VALUES (10, 'Vert', date '2011-04-06', 11.6, 'preto');
-INSERT INTO Animais VALUES (11, 'Salchisa', date '2013-02-04', 17.9, 'branco');
-INSERT INTO Animais VALUES (12, 'Matias', date '2012-01-03', 11.3, 'amarelo');
-INSERT INTO Animais VALUES (13, 'Chorao', date '2015-05-01', 17.7, 'amarelo');
-INSERT INTO Animais VALUES (14, 'Dori', date '2013-07-02', 18.2, 'verde');
-INSERT INTO Animais VALUES (15, 'Caramelo', date '2019-11-03', 19.7, 'caramelo');
-INSERT INTO Animais VALUES (16, 'Peixota', date '2012-09-08', 12.4, 'laranja');
-INSERT INTO Animais VALUES (17, 'Marsha', date '2016-04-06', 11.2, 'cinza');
-INSERT INTO Animais VALUES (18, 'Urso', date '2011-02-03', 14.3, 'marrom');
-INSERT INTO Animais VALUES (19, 'Fred', date '2012-01-02', 19.9, 'marrom');
-INSERT INTO Animais VALUES (20, 'Pica Pau', date '2019-04-05', 19.7, 'branco');
-INSERT INTO Animais VALUES (21, 'Leoncio', date '2021-08-19', 19.7, 'preto');
+CREATE TABLE Animais (
+id      INT,
+nome    VARCHAR(50),
+nasc    DATE,
+peso    DECIMAL (10,2),
+cor     VARCHAR(50)
+);
